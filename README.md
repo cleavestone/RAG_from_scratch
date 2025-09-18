@@ -20,4 +20,9 @@ The goal is to build a strong foundation, explore different components step by s
   - Semantic chunking  
   - Overlapping windows  
   - Structure-aware chunking  
-- Discussed **limitations** and **hybrid approaches** for real-world applications.  
+
+### 3. Embedding Models  
+- Learned about **Word embeddings, sentence embeddings, document embeddings, and multilingual embeddings**.  
+- Hands-on with pre-trained models like `all-MiniLM-L6-v2` (SBERT).  
+- Implemented **cosine similarity** to compare embeddings.  
+- Covered **fine-tuning embeddings** for domain-specific tasks.  
