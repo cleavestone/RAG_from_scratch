@@ -5,33 +5,40 @@ The goal is to build a strong foundation, explore different components step by s
 
 ---
 
-## ✅ Completed Notebooks
+## ✅ Completed Notebooks (in order of learning)
 
-### 1. Mathematical Foundations of RAG
-- Understanding the **core math** behind retrieval and generation.  
-- Probability basics, similarity metrics, and vector space concepts.  
-- Provides the groundwork for later modules on embeddings and retrieval.  
+### 🟢 Foundations
+1. [**Mathematical Foundations of RAG**](notebook/Mathematical_Foundations_of_RAG.ipynb)  
+   - Core probability, similarity metrics, and vector space concepts.  
+   - Provides the groundwork for embeddings and retrieval.  
+---
+2. [**Text Chunking Strategies**](notebook/Text_Chunking_Strategies.ipynb)  
+   - Why chunking is critical in RAG.  
+   - Explored multiple methods: fixed-size, sentence-based, semantic, overlapping, and structure-aware chunking.  
 
-### 2. Text Chunking Strategies
-- Explored why **chunking is critical** for RAG.  
-- Implemented and compared multiple strategies:  
-  - Fixed-size chunking  
-  - Sentence-based chunking  
-  - Semantic chunking  
-  - Overlapping windows  
-  - Structure-aware chunking  
+---
 
-### 3. Embedding Models  
-- Learned about **Word embeddings, sentence embeddings, document embeddings, and multilingual embeddings**.  
-- Hands-on with pre-trained models like `all-MiniLM-L6-v2` (SBERT).  
-- Implemented **cosine similarity** to compare embeddings.  
-- Covered **fine-tuning embeddings** for domain-specific tasks.  
+### 🔵 Embeddings
+3. [**Embedding Models**](notebooks/Embedding_models.ipynb)  
+   - Word, sentence, and document embeddings (including multilingual).  
+   - Hands-on with `all-MiniLM-L6-v2` (SBERT).  
+   - Implemented cosine similarity for comparison.  
+   - Covered fine-tuning embeddings for domain-specific tasks.  
 
-### 4. Approximate Nearest Neighbor (ANN) Algorithms
-- Studied and implemented **ANN algorithms** for efficient similarity search.  
-- Explored three major approaches:  
-  - **HNSW (Hierarchical Navigable Small World)** → Graph-based, high accuracy.  
-  - **IVF (Inverted File Index)** → Quantization-based, efficient on large datasets.  
-  - **LSH (Locality-Sensitive Hashing)** → Hashing-based, very fast but coarse.  
-- Compared trade-offs in **accuracy, speed, memory, and RAG use cases**.
+---
+
+### 🟣 Vector Search
+4. [**Approximate Nearest Neighbor (ANN) Algorithms**](notebooks/Approximate_Nearest_Neighbors_Algorithms.ipynb)  
+   - Studied and implemented key ANN algorithms:  
+     - **HNSW (Hierarchical Navigable Small World)** → Graph-based, high accuracy.  
+     - **IVF (Inverted File Index)** → Quantization-based, efficient on large datasets.  
+     - **LSH (Locality-Sensitive Hashing)** → Hashing-based, very fast but coarse.  
+   - Compared trade-offs in **accuracy, speed, memory, and best use cases in RAG**.  
+
+---
+
+## 📌 Next Steps
+- Dive deeper into **vector databases** (e.g., FAISS, Pinecone, Weaviate).  
+- Explore **retriever + generator pipelines**.  
+- Implement a **mini RAG project** using the learned components.  
 
