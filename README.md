@@ -26,3 +26,12 @@ The goal is to build a strong foundation, explore different components step by s
 - Hands-on with pre-trained models like `all-MiniLM-L6-v2` (SBERT).  
 - Implemented **cosine similarity** to compare embeddings.  
 - Covered **fine-tuning embeddings** for domain-specific tasks.  
+
+### 4. Approximate Nearest Neighbor (ANN) Algorithms
+- Studied and implemented **ANN algorithms** for efficient similarity search.  
+- Explored three major approaches:  
+  - **HNSW (Hierarchical Navigable Small World)** → Graph-based, high accuracy.  
+  - **IVF (Inverted File Index)** → Quantization-based, efficient on large datasets.  
+  - **LSH (Locality-Sensitive Hashing)** → Hashing-based, very fast but coarse.  
+- Compared trade-offs in **accuracy, speed, memory, and RAG use cases**.
+
