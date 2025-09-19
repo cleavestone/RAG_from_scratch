@@ -1,2 +1,6 @@
 numpy
 hnswb
+langchain_community
+pypdf
+numpy
+bs4
