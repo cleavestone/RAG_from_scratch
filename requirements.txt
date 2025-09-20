@@ -1,6 +1,10 @@
 numpy
-hnswb
+#hnswb
 langchain_community
 pypdf
 numpy
 bs4
+python-dotenv
+langchain 
+sentence-transformers 
+pinecone

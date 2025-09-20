@@ -49,6 +49,19 @@ The goal is to build a strong foundation, explore different components step by s
    - Compared trade-offs in **accuracy, speed, memory, and best use cases in RAG**.  
 
 ---
+6. 🟣 [**Vector Databases**](notebook/Pinecone_Vector_Databases.ipynb)  
+   - Hands-on with **Pinecone**:  
+     - Created and configured API key.  
+     - Connected and initialized the client.  
+     - Created an index for my **resume embeddings**.  
+     - Loaded and chunked text with **LangChain utilities**.  
+     - Stored embeddings + metadata in the database.  
+     - Queried the index to retrieve the most relevant chunks.  
+   - Will extend to explore **FAISS, Weaviate, and ChromaDB** separately.  
+
+---
+
+
 
 ## 📌 Next Steps
 - Dive deeper into **vector databases** (e.g., FAISS, Pinecone, Weaviate).  
