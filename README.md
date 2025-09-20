@@ -49,7 +49,8 @@ The goal is to build a strong foundation, explore different components step by s
    - Compared trade-offs in **accuracy, speed, memory, and best use cases in RAG**.  
 
 ---
-6. 🟣 [**Vector Databases**](notebook/Pinecone_Vector_Databases.ipynb)  
+### Vector Databases
+6. 🟣 [**Pinecone**](notebook/Pinecone_Vector_Databases.ipynb)  
    - Hands-on with **Pinecone**:  
      - Created and configured API key.  
      - Connected and initialized the client.  
