@@ -32,7 +32,7 @@ The goal is to build a strong foundation, explore different components step by s
 ---
 
 ### 🔵 Embeddings
-4. [**Embedding Models**](notebooks/Embedding_models.ipynb)  
+4. [**Embedding Models**](notebook/Embedding_models.ipynb)  
    - Word, sentence, and document embeddings (including multilingual).  
    - Hands-on with `all-MiniLM-L6-v2` (SBERT).  
    - Implemented cosine similarity for comparison.  
@@ -41,7 +41,7 @@ The goal is to build a strong foundation, explore different components step by s
 ---
 
 ### 🟣 Vector Search
-5. [**Approximate Nearest Neighbor (ANN) Algorithms**](notebooks/Approximate_Nearest_Neighbors_Algorithms.ipynb)  
+5. [**Approximate Nearest Neighbor (ANN) Algorithms**](notebook/Approximate_Nearest_Neighbors_Algorithms.ipynb)  
    - Studied and implemented key ANN algorithms:  
      - **HNSW (Hierarchical Navigable Small World)** → Graph-based, high accuracy.  
      - **IVF (Inverted File Index)** → Quantization-based, efficient on large datasets.  
