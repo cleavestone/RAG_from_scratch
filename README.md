@@ -49,7 +49,9 @@ The goal is to build a strong foundation, explore different components step by s
    - Compared trade-offs in **accuracy, speed, memory, and best use cases in RAG**.  
 
 ---
-### Vector Databases
+---
+
+### 🟣 Vector Databases
 6. 🟣 [**Pinecone**](notebook/Pinecone_Vector_Databases.ipynb)  
    - Hands-on with **Pinecone**:  
      - Created and configured API key.  
@@ -59,6 +61,16 @@ The goal is to build a strong foundation, explore different components step by s
      - Stored embeddings + metadata in the database.  
      - Queried the index to retrieve the most relevant chunks.  
    - Will extend to explore **FAISS, Weaviate, and ChromaDB** separately.  
+
+---
+
+7. 🟣 [**FAISS**](notebook/FAISS_Database.ipynb)  
+   - Implemented a **local vector database** using **FAISS**.  
+   - Used **Sentence-BERT (all-MiniLM-L6-v2)** for embeddings.  
+   - Experimented with **section-based chunking** on my resume for structure-aware retrieval.  
+   - Built an index, performed similarity search, and evaluated retrieval quality.  
+   - Observed that the **retriever struggled with nuanced queries** due to limitations of the small embedding model.  
+   - Next step: test larger embedding models (e.g., `all-mpnet-base-v2`, `bge-small-en`) and compare retrieval performance.  
 
 ---
 
